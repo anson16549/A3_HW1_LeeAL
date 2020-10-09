@@ -1,0 +1,15 @@
+profPanel {
+    width: 445px;
+    height: 150px;
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 40px;
+    top: 70px;
+    border-radius: 8px;
+    @include box-shadow($top, $left, $right, $blur, $color);
+    img {
+        position: absolute;
+        right: -20px;
+        top: -20px;
+    }
+}
